@@ -2,7 +2,7 @@ import Image from "next/image";
 import { CiSearch } from "react-icons/ci";
 import { FaUserCircle } from "react-icons/fa";
 import { LuDot } from "react-icons/lu";
-import { HOUSETYPES } from "@/constants";
+import { HOUSETYPES } from "@/constants/index_1";
 
 const Header = () => {
   return (
@@ -36,7 +36,7 @@ const Header = () => {
 
       {/* // & Desktop Tablet View */}
 
-      <div className="hidden sm:flex justify-between items-center p-4">
+      <div className="hidden sm:flex justify-between items-center px-6 py-4 lg:px-12">
         <div>
           <Image src={"/assets/Vector.png"} alt="Logo" width={50} height={50} />
         </div>
